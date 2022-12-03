@@ -14,7 +14,7 @@ server = app.server
 
 
 app.layout = html.Div([
-    html.Header("Volcano Map Dash App", style={"fontSize": 40,
+    html.Header("Volcano Map Dash App by Unicorns", style={"fontSize": 40,
                                                "textAlign": "center"}),
     dcc.Dropdown(id="mydropdown",
                  options=df["Type"].unique(),
